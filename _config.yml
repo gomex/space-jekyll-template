@@ -2,15 +2,15 @@
 title: Lorem Ipsum - Web Developer
 description: "A blog about lorem ipsum ..."
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "http://gomex.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
+username: Gomex
+user_title: Quem é esse Gomex?
+email: gomex@riseup.net
+twitter_username: gomex
+github_username:  gomex
 gplus_username:  loremipsum
-disqus_username: loremipsum
+disqus_username: gomex
 
 # Build settings
 markdown: kramdown
