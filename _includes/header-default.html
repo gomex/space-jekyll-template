@@ -2,7 +2,7 @@
     <div class="content">
 
         <div class="person">
-            <img alt="My photo" src="https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png">
+            <img alt="Gomex" src="http://www.pop-ba.rnp.br/pub/WTR2015/NovoLayoutTemplate/rafael.jpeg">
         </div>
 
         <h1>
@@ -32,7 +32,7 @@
         </div>
 
         <ul class="recent">
-            <p>Recent posts:</p>
+            <p>Artigo recentes:</p>
              {% for post in site.posts limit:3%}
                 <li>
                     <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
@@ -43,7 +43,7 @@
         </ul>
 
         <ul class="recent">
-            <p>Recent projects:</p>
+            <p>Projetos recentes:</p>
              {% for project in site.projects limit:3%}
                 <li>
                     <a title="Show my recent project" href="{{ project.url}}">
