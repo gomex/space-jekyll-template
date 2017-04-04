@@ -1,15 +1,15 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
+title: Quem é Gomex?
+description: "Quem é Gomex?"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
 url: "http://gomex.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
 username: Gomex
-user_title: Quem é esse Gomex?
+user_title: Quem é Gomex?
 email: gomex@riseup.net
 twitter_username: gomex
 github_username:  gomex
-gplus_username:  loremipsum
+gplus_username:  linux.rafa
 disqus_username: gomex
 
 # Build settings
@@ -29,21 +29,19 @@ compress_html:
 links:
   - title: home
     url: /
-  - title: my posts
-    url: /posts
-  - title: series
+  - title: artigos
     url: /series
   - title: tags
     url: /tags
-  - title: about me
+  - title: Sobre mim
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: Livro "Docker para Desenvolvedores"
+    url: https://leanpub.com/dockerparadesenvolvedores
+  - name: Comunidade Docker BR (Telegram)
+    url: https://t.me/dockerbr
+  - name: Slides das palestras realizadas
+    url: https://www.slideshare.net/linux.rafa/clipboards
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
